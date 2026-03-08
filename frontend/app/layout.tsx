@@ -6,10 +6,10 @@ export default function RootLayout({ children }: {children: ReactNode;}) {
     return (
         <html>
             <body className="flex h-screen">
-                <div className="w-64 bg-blue-500">
+                <div className="w-64">
                     <Sidebar />
                 </div>
-                <main className="flex-1 bg-green-500">{children}</main>
+                <main className="flex-1">{children}</main>
             </body>
         </html>
     );
